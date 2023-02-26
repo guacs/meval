@@ -2,7 +2,7 @@ import exceptions;
 import std.conv : to;
 import std.stdio : writeln, writefln;
 
-import tokenizer : Tokenizer;
+import evaluate : evaluate;
 
 version (unittest) {
 	// This is required for `silly`.
@@ -25,7 +25,8 @@ version (unittest) {
 		}
 
 		try {
-			auto tokens = Tokenizer(args[1]).tokenize();
+			float answer = evaluate(args[1]);
+			writefln("\n\t%s = %s", args[1], answer);
 		} catch (exceptions.InvalidCharacter ex) {
 
 			import std.format : format;
