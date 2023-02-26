@@ -1,0 +1,21 @@
+# Custom
+.vscode/
+
+# D Related stuff
+.dub
+docs.json
+__dummy.html
+docs/
+/meval
+meval.so
+meval.dylib
+meval.dll
+meval.a
+meval.lib
+meval-test-*
+*.a
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

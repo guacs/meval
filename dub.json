@@ -1,0 +1,22 @@
+{
+	"authors": [
+		"guacs"
+	],
+	"configurations": [
+		{
+			"name": "unittest",
+			"targetType": "library"
+		},
+		{
+			"name": "executable",
+			"targetType": "executable"
+		}
+	],
+	"copyright": "Copyright © 2023, guacs",
+	"dependencies": {
+		"silly": "~>1.1.1"
+	},
+	"description": "An application to evaluate simple mathematical expressions provided as a string.",
+	"license": "MIT",
+	"name": "meval"
+}
