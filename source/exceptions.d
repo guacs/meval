@@ -13,3 +13,9 @@ class InvalidCharacter : Exception {
     }
 }
 
+class DivideByZero : Exception {
+
+    this() {
+        super("Tried to divide by zero!");
+    }
+}
